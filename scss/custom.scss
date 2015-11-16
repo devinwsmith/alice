@@ -48,7 +48,7 @@ aside.right-off-canvas-menu {
 }
 
 .top-bar-section ul li > a {
-    border-right:1px solid $alice-blue;
+    border-right:1px solid $gray;
 }
 
 .top-bar-section ul li:last-child > a {
@@ -61,9 +61,6 @@ aside.right-off-canvas-menu {
         margin-top:30px;
     }
     
-    .top-bar-section ul li:hover > a span {
-        border-bottom:3px solid scale-color($alice-blue, $lightness:80%);
-    }
     .top-bar-section ul li.active > a span{
         border-bottom:3px solid $alice-blue;
     }

@@ -92,6 +92,7 @@ $include-html-global-classes: $include-html-classes;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
+$font-weight-light: 300;
 $font-weight-normal: 500;
 $font-weight-bold: 700;
 
@@ -103,6 +104,7 @@ $muted-blue     : #adc0d9;
 $muted-blue2    : #566a89;
 $slate          : #8595aa;
 $slate-light    : #c2c7cf;
+$gray           : #767676;
 
 //Foundation Presets
 $ghost       : #FAFAFA;
@@ -1424,16 +1426,16 @@ $topbar-height: rem-calc(67);
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $alice-blue;
+$topbar-link-color: $gray;
 $topbar-link-color-hover: $alice-blue;
-$topbar-link-color-active: $alice-blue;
-$topbar-link-color-active-hover: $topbar-link-color-active;
-// $topbar-link-weight: $font-weight-normal;
-// $topbar-link-font-size: rem-calc(13);
+$topbar-link-color-active: $gray;
+$topbar-link-color-active-hover: $topbar-link-color-hover;
+$topbar-link-weight: $font-weight-normal;
+$topbar-link-font-size: rem-calc(12);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 $topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: $white;
-$topbar-link-bg-color-hover: $white;
+$topbar-link-bg-hover: transparent;
+$topbar-link-bg-color-hover: transparent;
 $topbar-link-bg-active: transparent;
 $topbar-link-bg-active-hover: transparent;
 // $topbar-link-font-family: $body-font-family;
