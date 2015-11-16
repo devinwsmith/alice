@@ -1,0 +1,41 @@
+///////////////////////////////////////////////
+// FOOTER
+///////////////////////////////////////////////
+
+footer {
+    background:$muted-blue2;
+    text-align:center;
+    padding:.75rem;
+    color:$muted-blue;
+    
+    * {font-size:.8rem;}
+    
+    p:last-child {margin:0;}
+
+    nav ul {
+        list-style:none;
+        margin:0 0 .5rem;
+
+        li {
+            display:inline-block;
+
+            a {
+                color:$muted-blue;
+                font-size:.8rem;
+                text-transform:uppercase;
+                padding-right:1em;
+                margin-right:1em;
+                border-right:1px solid $muted-blue;
+
+                &:hover {
+                    color:$white;
+                }
+            }
+
+            &:last-child a {
+                border:none;
+                margin:0;
+            }
+        }
+    }
+}

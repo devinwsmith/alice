@@ -1,0 +1,54 @@
+///////////////////////////////////////////////
+// SUBPAGES
+// Styles for individual subpages go here
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+// OUR PLANT
+///////////////////////////////////////////////
+
+//Headline Section
+#header-our-plant {
+    background-image:url(../images/bg-ourplant.jpg);
+    background-position:top center;
+
+    @media #{$medium-up} {
+        background-image: url(../images/bg-ourplant-lg.jpg);
+    }
+
+    @media #{$large-up} {
+        background-position:center -72px;
+    }
+}
+
+//Gallery
+.gallery {
+    background-image:url(../images/bg-darkpolygons.jpg);
+    @media #{$medium-up} {
+        background-image:url(../images/bg-darkpolygons-med-up.jpg);
+    }
+
+    background-size:cover;
+
+    h2 {
+        font-size:1.7rem;
+        color:$white;
+        margin:0 0 2.5rem;
+        text-align:center;
+    }
+}
+
+//Alice Crafted Linens Promo
+#alice-crafted-linens-promo {
+    background:url(../images/bg-promo.jpg) 0 0 no-repeat;;
+    background-size:cover;
+    padding:1.5rem 1.5rem .5rem;
+    a {color:$alice-blue;}
+
+    @media #{$large-up} {
+        position:absolute;
+        right:0;
+        bottom:300px;
+        z-index:99;
+    }
+}

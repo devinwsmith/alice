@@ -1,0 +1,221 @@
+@import "compass/css3";
+
+///////////////////////////////////////////////
+// FONTS
+///////////////////////////////////////////////
+
+//Raleway
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700);
+
+
+
+
+///////////////////////////////////////////////
+// BUTTONS
+///////////////////////////////////////////////
+a.button {
+    text-transform: uppercase;
+    padding-left:1.7rem;
+    background: rgba($slate-light, .5) url(../images/icon-arrow-right-slate.svg) 1rem center no-repeat;
+    padding:1rem 1rem 1rem 2.7rem;
+    background-size: 20px 20px;
+}
+
+
+
+
+
+///////////////////////////////////////////////
+// NAVIGATION
+///////////////////////////////////////////////
+h1.title,
+.top-bar .name h1 {
+    width:125px;
+    height:46px;
+    text-indent:-999em;
+    overflow:hidden;
+    background: url(../images/logo-alice.png) center center no-repeat;
+    background-size:contain;
+    margin: 12px 0;
+}
+
+aside.right-off-canvas-menu {
+    text-transform:uppercase;
+}
+
+.row.even {
+    padding:3rem;
+}
+
+.top-bar-section ul li > a {
+    border-right:1px solid $alice-blue;
+}
+
+.top-bar-section ul li:last-child > a {
+    border-right:none;
+}
+
+@media #{$large-up} {
+    .top-bar-section ul li > a {
+        line-height: $topbar-link-font-size*1.5!important;
+        margin-top:30px;
+    }
+    
+    .top-bar-section ul li:hover > a span {
+        border-bottom:3px solid scale-color($alice-blue, $lightness:80%);
+    }
+    .top-bar-section ul li.active > a span{
+        border-bottom:3px solid $alice-blue;
+    }
+}
+
+
+
+
+
+///////////////////////////////////////////////
+// ROWS
+///////////////////////////////////////////////
+
+
+//Odd Rows
+div.odd {
+    @media #{$medium-up} {
+        background-size:cover;
+    }
+
+    .row {
+        section {
+            background: rgba($alice-blue, .9);
+            color:$white;
+            padding:3rem;
+
+            h2 {
+                color:$white;
+            }
+        }
+
+        a.button {
+            background:transparent url(../images/icon-arrow-right.svg) left center no-repeat;
+            background-size:20px 20px;
+            padding-left: 1.7rem;
+            color:$muted-blue;
+        }
+
+        @media #{$medium-up} {
+            max-width: 100%;
+            background-size:cover;
+
+            section {
+                padding: 3rem;
+                background-color: transparent;
+                
+                h2 {
+                    font-size: 2rem;
+                    margin: 0 0 1rem;
+                }
+
+                $svg-gradient-shim-threshold: 1 !global;
+                @include background-image(linear-gradient(66deg, rgba($alice-blue, .9) 50%, transparent 50%));
+            }            
+
+            section.angle-right {
+                @include background-image(linear-gradient(110deg, transparent 50%, rgba($alice-blue, .9) 50%));
+            }
+        }
+        
+        @media #{$large-up} {
+            section {
+                padding: 5rem;
+            }
+        }
+    }
+}
+
+//Even Rows
+.row.even {
+    background-size:cover;
+    h2 {font-weight:400;}
+
+    @media #{$medium-up} {
+        h2 {font-weight:300;}
+    }
+
+}
+
+
+
+
+
+///////////////////////////////////////////////
+// SUBPAGE
+///////////////////////////////////////////////
+
+//Subpage Headlines
+div.headline {
+    max-width: 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    .row {
+        section {
+            padding: 2rem 2.5rem;
+            background-color: transparent;
+            
+            div{
+                min-height:25rem;
+                @media #{$medium-up} {
+                    min-height:12rem;
+                }
+
+                position:relative;
+
+                h2 {
+                    position:absolute;
+                    left:0;
+                    bottom:0;
+                    font-size: 2.25rem;
+                    margin: 0 0 1rem;
+
+                    @media #{$medium-up} {
+                        font-size:1.8rem;
+                    }
+                }
+            }
+
+            $svg-gradient-shim-threshold: 1 !global;
+            @include background-image(linear-gradient(5deg, rgba($alice-blue, .9) 50%, transparent 50%));
+        }
+    }
+}
+
+//Subpage Content
+div.subpage-content {
+    
+    .row {
+        padding:2.5rem;
+    }
+
+    &.even {
+        background:url(../images/bg-subpagecontent.jpg) top center no-repeat;
+        background-size:cover;
+
+        @media #{$medium-up} {
+            background-image:url(../images/bg-subpagecontent-med-up.jpg);
+        }
+    }
+
+    h2 {margin:0 0 1.5rem;}
+}
+
+
+///////////////////////////////////////////////
+// UTILITY CLASSES
+///////////////////////////////////////////////
+.photo {width:50%; height:50%;}
+.photo.right {margin:0 0 1.5rem 1.5rem;}
+.photo.left {margin:0 1.5rem 1.5rem 0;}
+.relative {position:relative;}
+a.th {margin-bottom:1rem;}
+
+

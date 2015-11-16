@@ -1,0 +1,59 @@
+///////////////////////////////////////////////
+// HOMEPAGE SECTIONS
+///////////////////////////////////////////////
+
+//Intro
+div#intro {
+    background:url(../images/bg-intro.png);
+    background-size:cover;
+}
+
+//American-Made
+div#american-made {
+    background:url(../images/bg-polygons.png) center center no-repeat;
+}
+
+//Meet the Team
+div#meet-the-team {
+    background:url(../images/bg-meettheteam.png) left top no-repeat;
+    
+    @media #{$small-only} {
+        min-height:50rem;
+        background-position:center top;
+
+        section {
+            background:none;
+            margin-top:29rem;
+        }
+    }
+
+    @media #{$medium-up} {
+        background:url(../images/bg-meettheteam-med.png) left top no-repeat;
+        background-size:cover;
+    }
+}
+
+//Our Plant
+div#our-plant {
+    padding-bottom:16rem;
+    background:url(../images/bg-plant.jpg) center bottom no-repeat;
+}
+
+//Contact
+div#contact {
+    padding:3rem;
+    background:$alice-blue;
+    color:$muted-blue;
+
+    p {font-size:.9rem;}
+
+    @media #{$small-only} {
+        text-align:center;
+    }
+
+    h4 {
+        color:$muted-blue;
+        text-transform:uppercase;
+        font-size:.9rem;
+    }
+}
