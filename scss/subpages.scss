@@ -3,12 +3,98 @@
 // Styles for individual subpages go here
 ///////////////////////////////////////////////
 
+
+
+
+///////////////////////////////////////////////
+// ABOUT
+///////////////////////////////////////////////
+
+//Headline Section
+#about .headline {
+    background-image:url(../images/bg-about.jpg);
+    background-position:top center;
+    
+    @media #{$small} {
+        h2 {font-size:1.7rem;}
+    }
+    @media #{$medium-up} {
+        background-image: url(../images/bg-about-med-up.jpg);
+    }
+
+    @media #{$xlarge-up} {
+        h2 {
+            width:30rem;
+            position:relative;
+            top:3rem;
+        }
+    }
+}
+
+//Quality Callout
+#quality {
+    .image {background-image:url(../images/bg-quality-callout.jpg);}
+
+}
+
+
+
+
+
+
+///////////////////////////////////////////////
+// FAMILY
+///////////////////////////////////////////////
+
+//Headline Section
+#family .headline {
+    background-image:url(../images/bg-family.jpg);
+    background-position:top center;
+
+    @media #{$small} {
+        h2 {font-size:1.7rem;}
+    }
+    @media #{$medium-up} {
+        background-image: url(../images/bg-family-med-up.jpg);
+    }
+}
+
+#family {
+    background:url(../images/bg-family-footer.jpg) bottom center no-repeat;;
+
+    background-size:contain;
+    @media #{$medium-up} {
+        background-image:url(../images/bg-family-footer-lg.jpg);
+    }
+
+    .subpage-content.last-block .row {
+        padding-bottom:0;
+    }
+}
+
+
+//Quality Callout
+#founding {
+    .image {
+        background-image:url(../images/bg-founding-callout.jpg);
+        
+        @media #{$large-up} {
+            background-image:url(../images/bg-founding-callout-lg.jpg);
+            // background-size:auto 130%;
+        }
+    }
+}
+
+
+
+
+
 ///////////////////////////////////////////////
 // OUR PLANT
 ///////////////////////////////////////////////
 
 //Headline Section
-#header-our-plant {
+#our-plant .headline {
     background-image:url(../images/bg-ourplant.jpg);
     background-position:top center;
 
@@ -18,6 +104,12 @@
 
     @media #{$large-up} {
         background-position:center -72px;
+    }
+
+    @media #{$xlarge-up} {
+        h2 {
+            line-height:12rem;
+        }
     }
 }
 
@@ -52,3 +144,57 @@
         z-index:99;
     }
 }
+
+
+
+
+///////////////////////////////////////////////
+// COMMUNITY
+///////////////////////////////////////////////
+
+//Headline Section
+#community .headline {
+    background-image:url(../images/bg-community.jpg);
+    background-position:top center;
+
+    @media #{$small} {
+        h2 {font-size:1.7rem;}
+    }
+    @media #{$medium-up} {
+        background-image: url(../images/bg-community-med-up.jpg);
+    }
+}
+
+//Logo List
+ul.logos {
+    list-style:none;
+
+    li {
+        display:inline-block;
+        width:100%;
+        text-align:center;
+        margin:0 0 4rem;
+
+        @media #{$medium-up} {
+            width:30%;
+            height:4rem;
+            margin:0 1% 2rem 0;
+            padding:4%;            
+        }
+
+        img {
+            width:70%;
+            height:auto;
+    
+            @media #{$medium-up} {
+                width:100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+

@@ -5,12 +5,18 @@
 footer {
     background:$muted-blue2;
     text-align:center;
-    padding:.75rem;
     color:$muted-blue;
     
-    * {font-size:.8rem;}
-    
     p:last-child {margin:0;}
+
+    #contact section {
+        margin:0 0 2rem;
+    }
+
+    #footernav {
+        padding:.75rem;
+        * {font-size:.8rem;}
+    }
 
     nav ul {
         list-style:none;

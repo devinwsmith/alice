@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19076",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -6337,6 +6346,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/community.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/community.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -6345,6 +6363,37 @@
 		"outputAbbreviatedPath": "\/config.rb",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/family.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/family.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/bg-about-med-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134431,
+		"inputAbbreviatedPath": "\/images\/bg-about-med-up.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-about-med-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-about.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65940,
+		"inputAbbreviatedPath": "\/images\/bg-about.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/bg-blueoverlay-left.png": {
 		"fileType": 32768,
@@ -6368,6 +6417,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-callout.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207031,
+		"inputAbbreviatedPath": "\/images\/bg-callout.png",
+		"outputAbbreviatedPath": "\/images\/bg-callout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-community-med-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115117,
+		"inputAbbreviatedPath": "\/images\/bg-community-med-up.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-community-med-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-community.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61546,
+		"inputAbbreviatedPath": "\/images\/bg-community.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-community.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-darkpolygons-fade.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11893,
+		"inputAbbreviatedPath": "\/images\/bg-darkpolygons-fade.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-darkpolygons-fade.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-darkpolygons-lg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/bg-darkpolygons-lg.png",
+		"outputAbbreviatedPath": "\/images\/bg-darkpolygons-lg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-darkpolygons-med-up.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6379,6 +6483,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-darkpolygons-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3452,
+		"inputAbbreviatedPath": "\/images\/bg-darkpolygons-sm.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-darkpolygons-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-darkpolygons.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6386,6 +6501,72 @@
 		"initialSize": 22371,
 		"inputAbbreviatedPath": "\/images\/bg-darkpolygons.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-darkpolygons.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-family-footer-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28350,
+		"inputAbbreviatedPath": "\/images\/bg-family-footer-lg.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-family-footer-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-family-footer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10312,
+		"inputAbbreviatedPath": "\/images\/bg-family-footer.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-family-footer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-family-med-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72291,
+		"inputAbbreviatedPath": "\/images\/bg-family-med-up.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-family-med-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-family.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36183,
+		"inputAbbreviatedPath": "\/images\/bg-family.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-family.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-founding-callout-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55543,
+		"inputAbbreviatedPath": "\/images\/bg-founding-callout-lg.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-founding-callout-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-founding-callout.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34515,
+		"inputAbbreviatedPath": "\/images\/bg-founding-callout.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-founding-callout.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6500,6 +6681,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-quality-callout.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68403,
+		"inputAbbreviatedPath": "\/images\/bg-quality-callout.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-quality-callout.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-subpagecontent-med-up.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6518,6 +6710,17 @@
 		"initialSize": 15876,
 		"inputAbbreviatedPath": "\/images\/bg-subpagecontent.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-subpagecontent.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/callout-quality.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105828,
+		"inputAbbreviatedPath": "\/images\/callout-quality.jpg",
+		"outputAbbreviatedPath": "\/images\/callout-quality.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6621,6 +6824,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/photo-ellisonplant.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226180,
+		"inputAbbreviatedPath": "\/images\/photo-ellisonplant.png",
+		"outputAbbreviatedPath": "\/images\/photo-ellisonplant.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photo-employee-med-up.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/photo-employee-med-up.png",
+		"outputAbbreviatedPath": "\/images\/photo-employee-med-up.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/photo-employee.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 568841,
+		"inputAbbreviatedPath": "\/images\/photo-employee.png",
+		"outputAbbreviatedPath": "\/images\/photo-employee.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/photo-lifttruck.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6628,6 +6864,17 @@
 		"initialSize": 39190,
 		"inputAbbreviatedPath": "\/images\/photo-lifttruck.jpg",
 		"outputAbbreviatedPath": "\/images\/photo-lifttruck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/seal-rev.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15880,
+		"inputAbbreviatedPath": "\/images\/seal-rev.png",
+		"outputAbbreviatedPath": "\/images\/seal-rev.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
